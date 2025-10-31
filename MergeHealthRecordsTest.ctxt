@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=MergeHealthRecordsTest
+comment0.text=\r\n\ The\ test\ class\ MergeHealthRecordsTest.\r\n\r\n\ @author\ \ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=data
+comment1.target=MergeHealthRecords.LinkedList\ createList(java.lang.String[][])
+comment2.params=head
+comment2.target=java.lang.String[]\ toArray(MergeHealthRecords.Node)
+comment3.params=
+comment3.target=void\ testMergeNormalNoDuplicates()
+comment4.params=
+comment4.target=void\ testMergeNormalNoDuplicatesDifferentAmounts()
+comment5.params=
+comment5.target=void\ testMergeNormalWithDuplicate()
+comment6.params=
+comment6.target=void\ testMergeEmptyList()
+comment7.params=
+comment7.target=void\ testMergeSecondEmptyList()
+comment8.params=
+comment8.target=void\ testMergeBothEmptyList()
+numComments=9

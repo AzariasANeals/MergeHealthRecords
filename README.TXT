@@ -1,0 +1,18 @@
+Time & Space complexity 
+Let n = number of nodes in list1, m = number in list2.
+
+
+Time Complexity: 
+
+Each node is visited exactly once (either it’s compared and appended during the loop or appended as leftover). 
+The loop runs at most min(n,m) comparisons and n+m pointer moves in total. 
+So time complexity = O(n + m).
+
+
+Space Complexity: 
+
+Only a constant number of extra pointers (dummy, current, and local loop temps) are used.
+No new PatientRecord or Node objects are created during merge (except the dummy node). 
+Therefore auxiliary space = O(1).
+
+Total memory: The lists themselves require O(n + m) memory (existing nodes). Merge reuses them — no extra per-node memory.
